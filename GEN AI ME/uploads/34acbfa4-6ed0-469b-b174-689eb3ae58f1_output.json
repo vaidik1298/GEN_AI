@@ -1,0 +1,114 @@
+[
+  {
+    "original": "Any dispute arising under or in connection with this Agreement shall be resolved through binding arbitration in accordance with the rules of the International Chamber of Commerce.",
+    "annotated": "Any dispute arising under or in connection with this Agreement shall be resolved through binding <<arbitration>> in accordance with the rules of the International Chamber of Commerce.",
+    "glossary_matches": [
+      {
+        "term": "arbitration",
+        "matched_text": "arbitration",
+        "definition": "resolving disputes through a neutral third party instead of court",
+        "simplified": "solving problems with a neutral person",
+        "category": "dispute_resolution",
+        "context": "alternative to litigation",
+        "start": 97,
+        "end": 108
+      }
+    ],
+    "simplified": "\"If we have a disagreement about something related to this agreement, we will resolve it by having an independent third party make a decision, rather than going to court.\"",
+    "category": "liability",
+    "justification": "Justification: The clause is discussing disputes and how they will be resolved, which implies a potential risk or liability for one or both parties. It's not related to payment, confidentiality, termination, or risk in the classical sense, but rather addresses the process of resolving disagreements that may arise from the agreement.",
+    "scores": {
+      "payment": 0,
+      "confidentiality": 0,
+      "liability": 1,
+      "termination": 0,
+      "risk": 0,
+      "other": 0
+    }
+  },
+  {
+    "original": "Neither party shall be liable for any failure or delay in performance caused by events beyond their reasonable control, including natural disasters, strikes, or government actions.",
+    "annotated": "Neither party shall be liable for any failure or delay in performance caused by events beyond their reasonable control, including natural disasters, strikes, or government actions.",
+    "glossary_matches": [],
+    "simplified": "We won't be held responsible if we can't do something because of things that are outside our control, like a hurricane, a strike, or a government decision.",
+    "category": "liability",
+    "justification": "Justification: The clause specifically states that neither party will be held responsible (liable) for any failure or delay in performance due to circumstances outside of their control.",
+    "scores": {
+      "payment": 0,
+      "confidentiality": 0,
+      "liability": 1,
+      "termination": 0,
+      "risk": 0,
+      "other": 0
+    }
+  },
+  {
+    "original": "This Agreement shall be governed by and construed in accordance with the laws of the State of New York, without regard to conflict of law principles.",
+    "annotated": "This Agreement shall be governed by and construed in accordance with the laws of the State of New York, without regard to conflict of law principles.",
+    "glossary_matches": [],
+    "simplified": "\"This agreement will follow the laws of the state of New York, regardless of any other laws that might apply.\"",
+    "category": "other",
+    "justification": "Justification: The clause is discussing the governing law and jurisdiction for the agreement, which does not fit into any of the other categories (payment, confidentiality, liability, termination, or risk).",
+    "scores": {
+      "payment": 0,
+      "confidentiality": 0,
+      "liability": 0,
+      "termination": 0,
+      "risk": 0,
+      "other": 1
+    }
+  },
+  {
+    "original": "Neither party may assign or transfer its rights or obligations under this Agreement without the prior written consent of the other party.",
+    "annotated": "Neither party may assign or transfer its rights or obligations under this Agreement without the prior written consent of the other party.",
+    "glossary_matches": [],
+    "simplified": "Neither side can give away their rights or responsibilities in this agreement to someone else without getting permission from the other person first.",
+    "category": "termination",
+    "justification": "Justification: The clause is discussing the assignment or transfer of rights and obligations, which is a common topic in termination clauses. It's not directly related to payment, confidentiality, liability, risk, or any other category.",
+    "scores": {
+      "payment": 0,
+      "confidentiality": 0,
+      "liability": 0,
+      "termination": 1,
+      "risk": 0,
+      "other": 0
+    }
+  },
+  {
+    "original": "All intellectual property developed under this Agreement shall remain the exclusive property of the Company.",
+    "annotated": "All <<intellectual property>> developed under this Agreement shall remain the <<exclusive>> property of the Company.",
+    "glossary_matches": [
+      {
+        "term": "intellectual property",
+        "matched_text": "intellectual property",
+        "definition": "creations of the mind like inventions, designs, and copyrights",
+        "simplified": "ideas, inventions, and creative works",
+        "category": "ip",
+        "context": "ownership and licensing of ideas",
+        "start": 4,
+        "end": 25
+      },
+      {
+        "term": "exclusive",
+        "matched_text": "exclusive",
+        "definition": "only one party has the right",
+        "simplified": "only for one party",
+        "category": "restrictions",
+        "context": "exclusive dealing commitments",
+        "start": 74,
+        "end": 83
+      }
+    ],
+    "simplified": "Anything we create or develop together as part of this agreement will belong solely to the company.",
+    "category": "confidentiality",
+    "justification": "Justification: The clause states that all intellectual property developed under the agreement remains the exclusive property of the company, which suggests a confidentiality aspect as it implies that the company wants to maintain ownership and control over its intellectual property.",
+    "scores": {
+      "payment": 0,
+      "confidentiality": 1,
+      "liability": 0,
+      "termination": 0,
+      "risk": 0,
+      "other": 0
+    }
+  }
+]

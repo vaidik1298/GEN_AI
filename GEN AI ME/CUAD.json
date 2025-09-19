@@ -1,0 +1,2019 @@
+{
+  "glossary": {
+    "legal_terms": {
+      "indemnify": {
+        "definition": "compensate someone for losses or damages",
+        "simplified": "pay back for losses",
+        "category": "liability",
+        "context": "used in liability and risk sections"
+      },
+      "counterparty": {
+        "definition": "the other party in a contract or agreement",
+        "simplified": "the other side in the deal",
+        "category": "parties",
+        "context": "refers to contract participants"
+      },
+      "perpetual": {
+        "definition": "lasting forever or indefinitely",
+        "simplified": "forever",
+        "category": "duration",
+        "context": "used for contract terms and licenses"
+      },
+      "terminate": {
+        "definition": "bring to an end or cancel",
+        "simplified": "end or cancel",
+        "category": "termination",
+        "context": "contract ending provisions"
+      },
+      "breach": {
+        "definition": "violation or breaking of a contract term",
+        "simplified": "breaking the rules of the contract",
+        "category": "violations",
+        "context": "when someone doesn't follow the contract"
+      },
+      "liquidated_damages": {
+        "definition": "predetermined amount of money to be paid if contract is breached",
+        "simplified": "fixed penalty amount for breaking the contract",
+        "category": "damages",
+        "context": "penalty clauses"
+      },
+      "affiliate": {
+        "definition": "company controlled by, controlling, or under common control with another company",
+        "simplified": "related company",
+        "category": "entities",
+        "context": "corporate relationships"
+      },
+      "solicitation": {
+        "definition": "actively seeking or trying to obtain something from someone",
+        "simplified": "trying to get or attract",
+        "category": "competition",
+        "context": "non-compete and employee restrictions"
+      },
+      "disparagement": {
+        "definition": "speaking negatively about someone or something",
+        "simplified": "bad-mouthing or criticizing",
+        "category": "conduct",
+        "context": "reputation protection clauses"
+      },
+      "escrow": {
+        "definition": "holding something with a neutral third party until conditions are met",
+        "simplified": "keeping something with a neutral party",
+        "category": "security",
+        "context": "source code and payment protection"
+      },
+      "irrevocable": {
+        "definition": "cannot be cancelled or taken back",
+        "simplified": "cannot be cancelled",
+        "category": "permanence",
+        "context": "license and rights grants"
+      },
+      "audit": {
+        "definition": "official examination of records or accounts",
+        "simplified": "checking records or books",
+        "category": "oversight",
+        "context": "compliance verification"
+      },
+      "liability": {
+        "definition": "legal responsibility for damages or losses",
+        "simplified": "responsibility to pay for damages",
+        "category": "responsibility",
+        "context": "risk and damage provisions"
+      },
+      "uncapped": {
+        "definition": "without limit or maximum amount",
+        "simplified": "unlimited",
+        "category": "limits",
+        "context": "liability and damages"
+      },
+      "warranty": {
+        "definition": "promise that something will work properly",
+        "simplified": "guarantee",
+        "category": "promises",
+        "context": "product and service guarantees"
+      },
+      "covenant": {
+        "definition": "formal promise or agreement to do or not do something",
+        "simplified": "promise",
+        "category": "obligations",
+        "context": "binding commitments"
+      },
+      "beneficiary": {
+        "definition": "person or entity who receives benefits",
+        "simplified": "person who gets the benefits",
+        "category": "recipients",
+        "context": "third party rights"
+      },
+      "exclusive": {
+        "definition": "only one party has the right",
+        "simplified": "only for one party",
+        "category": "restrictions",
+        "context": "exclusive dealing commitments"
+      },
+      "non_compete": {
+        "definition": "agreement not to compete with the other party",
+        "simplified": "promise not to compete",
+        "category": "competition",
+        "context": "business restrictions"
+      },
+      "assignment": {
+        "definition": "transfer of rights or obligations to another party",
+        "simplified": "giving rights to someone else",
+        "category": "transfers",
+        "context": "contract transfers"
+      },
+      "governing_law": {
+        "definition": "the law that controls how the contract is interpreted",
+        "simplified": "which state or country's rules apply",
+        "category": "jurisdiction",
+        "context": "legal framework"
+      },
+      "most_favored_nation": {
+        "definition": "right to get the same good terms given to others",
+        "simplified": "right to get the best deal given to anyone",
+        "category": "pricing",
+        "context": "fair treatment clauses"
+      },
+      "right_of_first_refusal": {
+        "definition": "right to buy before others can",
+        "simplified": "first chance to buy",
+        "category": "purchase_rights",
+        "context": "sale and licensing priority"
+      },
+      "change_of_control": {
+        "definition": "when ownership or management of a company changes significantly",
+        "simplified": "when company ownership changes",
+        "category": "corporate_changes",
+        "context": "merger and acquisition provisions"
+      },
+      "revenue_sharing": {
+        "definition": "splitting income or profits between parties",
+        "simplified": "sharing the money made",
+        "category": "financial",
+        "context": "profit distribution"
+      },
+      "minimum_commitment": {
+        "definition": "smallest amount that must be purchased",
+        "simplified": "minimum amount you must buy",
+        "category": "purchase_obligations",
+        "context": "buying requirements"
+      },
+      "intellectual_property": {
+        "definition": "creations of the mind like inventions, designs, and copyrights",
+        "simplified": "ideas, inventions, and creative works",
+        "category": "ip",
+        "context": "ownership and licensing of ideas"
+      },
+      "license_grant": {
+        "definition": "permission to use someone else's intellectual property",
+        "simplified": "permission to use",
+        "category": "permissions",
+        "context": "usage rights"
+      },
+      "non_transferable": {
+        "definition": "cannot be given or sold to someone else",
+        "simplified": "cannot be given to others",
+        "category": "restrictions",
+        "context": "license limitations"
+      },
+      "post_termination": {
+        "definition": "after the contract ends",
+        "simplified": "after the deal ends",
+        "category": "timing",
+        "context": "obligations after contract ends"
+      },
+      "force_majeure": {
+        "definition": "unforeseeable circumstances that prevent fulfillment of a contract",
+        "simplified": "unexpected events beyond anyone's control",
+        "category": "exceptions",
+        "context": "natural disasters, war, government actions"
+      },
+      "consideration": {
+        "definition": "something of value exchanged between parties",
+        "simplified": "what each side gives or gets",
+        "category": "exchange",
+        "context": "payment, services, or promises"
+      },
+      "severability": {
+        "definition": "if one part of contract is invalid, the rest remains valid",
+        "simplified": "if one part is bad, the rest still works",
+        "category": "validity",
+        "context": "contract enforceability"
+      },
+      "waiver": {
+        "definition": "voluntarily giving up a right or claim",
+        "simplified": "giving up a right",
+        "category": "rights",
+        "context": "forgiveness of breach or requirement"
+      },
+      "amendment": {
+        "definition": "formal change to the contract terms",
+        "simplified": "change to the contract",
+        "category": "modifications",
+        "context": "contract updates"
+      },
+      "arbitration": {
+        "definition": "resolving disputes through a neutral third party instead of court",
+        "simplified": "solving problems with a neutral person",
+        "category": "dispute_resolution",
+        "context": "alternative to litigation"
+      },
+      "mediation": {
+        "definition": "assisted negotiation with a neutral facilitator",
+        "simplified": "getting help to work out problems",
+        "category": "dispute_resolution",
+        "context": "collaborative problem solving"
+      },
+      "jurisdiction": {
+        "definition": "authority of a court to hear and decide a case",
+        "simplified": "which court has power to decide",
+        "category": "legal_authority",
+        "context": "where disputes will be resolved"
+      },
+      "venue": {
+        "definition": "specific location where legal proceedings take place",
+        "simplified": "where court cases happen",
+        "category": "location",
+        "context": "geographic location for disputes"
+      },
+      "confidential_information": {
+        "definition": "private information that must be kept secret",
+        "simplified": "secret information",
+        "category": "confidentiality",
+        "context": "trade secrets, proprietary data"
+      },
+      "non_disclosure": {
+        "definition": "agreement not to reveal confidential information",
+        "simplified": "promise to keep secrets",
+        "category": "confidentiality",
+        "context": "protecting sensitive information"
+      },
+      "proprietary": {
+        "definition": "owned by a particular person or company",
+        "simplified": "owned by someone",
+        "category": "ownership",
+        "context": "exclusive rights to information or technology"
+      },
+      "trade_secret": {
+        "definition": "confidential business information that provides competitive advantage",
+        "simplified": "secret business information",
+        "category": "ip",
+        "context": "formulas, processes, customer lists"
+      },
+      "patent": {
+        "definition": "exclusive right to make, use, or sell an invention",
+        "simplified": "exclusive right to an invention",
+        "category": "ip",
+        "context": "protecting inventions"
+      },
+      "trademark": {
+        "definition": "distinctive sign identifying goods or services",
+        "simplified": "brand name or logo",
+        "category": "ip",
+        "context": "brand protection"
+      },
+      "copyright": {
+        "definition": "exclusive right to reproduce, distribute, or display creative works",
+        "simplified": "ownership of creative works",
+        "category": "ip",
+        "context": "books, music, software, art"
+      },
+      "infringement": {
+        "definition": "unauthorized use of someone else's intellectual property",
+        "simplified": "using someone else's protected work without permission",
+        "category": "violations",
+        "context": "IP violations"
+      },
+      "royalty": {
+        "definition": "payment for the use of property, typically intellectual property",
+        "simplified": "payment for using someone's property",
+        "category": "payments",
+        "context": "licensing fees"
+      },
+      "sublicense": {
+        "definition": "permission to grant licenses to third parties",
+        "simplified": "permission to let others use it too",
+        "category": "permissions",
+        "context": "extending licensing rights"
+      },
+      "work_for_hire": {
+        "definition": "work created by employee or contractor belongs to employer",
+        "simplified": "work done for company belongs to company",
+        "category": "ownership",
+        "context": "employee creations"
+      },
+      "moral_rights": {
+        "definition": "author's right to be credited and protect integrity of work",
+        "simplified": "right to be named as creator",
+        "category": "ip",
+        "context": "creative work attribution"
+      },
+      "derivative_work": {
+        "definition": "new work based on existing copyrighted material",
+        "simplified": "new work based on existing work",
+        "category": "ip",
+        "context": "adaptations, translations"
+      },
+      "fair_use": {
+        "definition": "limited use of copyrighted material without permission",
+        "simplified": "allowed use without permission",
+        "category": "exceptions",
+        "context": "education, criticism, news reporting"
+      },
+      "public_domain": {
+        "definition": "works not protected by copyright, free for anyone to use",
+        "simplified": "free to use by anyone",
+        "category": "public_rights",
+        "context": "expired or donated copyrights"
+      },
+      "deliverable": {
+        "definition": "specific item or service to be provided under contract",
+        "simplified": "what must be delivered",
+        "category": "obligations",
+        "context": "work products, services"
+      },
+      "milestone": {
+        "definition": "significant point or stage in project completion",
+        "simplified": "important step in the project",
+        "category": "project_management",
+        "context": "progress markers"
+      },
+      "acceptance_criteria": {
+        "definition": "standards that deliverables must meet to be accepted",
+        "simplified": "requirements for approval",
+        "category": "quality",
+        "context": "completion standards"
+      },
+      "performance_standards": {
+        "definition": "specific requirements for quality or efficiency",
+        "simplified": "how well work must be done",
+        "category": "quality",
+        "context": "service level agreements"
+      },
+      "service_level_agreement": {
+        "definition": "commitment between service provider and client",
+        "simplified": "promise about service quality",
+        "category": "commitments",
+        "context": "uptime, response time, quality metrics"
+      },
+      "uptime": {
+        "definition": "time when system or service is operational",
+        "simplified": "when system is working",
+        "category": "availability",
+        "context": "system reliability"
+      },
+      "downtime": {
+        "definition": "time when system or service is not operational",
+        "simplified": "when system is not working",
+        "category": "availability",
+        "context": "system failures"
+      },
+      "response_time": {
+        "definition": "time taken to respond to request or problem",
+        "simplified": "how quickly problems are addressed",
+        "category": "performance",
+        "context": "customer service metrics"
+      },
+      "escalation": {
+        "definition": "process of moving issue to higher authority",
+        "simplified": "taking problem to higher level",
+        "category": "procedures",
+        "context": "problem resolution"
+      },
+      "remediation": {
+        "definition": "action taken to correct a problem or deficiency",
+        "simplified": "fixing the problem",
+        "category": "corrections",
+        "context": "addressing issues"
+      },
+      "cure_period": {
+        "definition": "time allowed to fix a breach before consequences",
+        "simplified": "time to fix the problem",
+        "category": "remedies",
+        "context": "opportunity to correct violations"
+      },
+      "material_breach": {
+        "definition": "serious violation that defeats the purpose of contract",
+        "simplified": "major violation of the contract",
+        "category": "violations",
+        "context": "significant contract failures"
+      },
+      "minor_breach": {
+        "definition": "violation that doesn't defeat contract's main purpose",
+        "simplified": "small violation of the contract",
+        "category": "violations",
+        "context": "technical or minor failures"
+      },
+      "anticipatory_breach": {
+        "definition": "indication that party will not fulfill future obligations",
+        "simplified": "showing you won't do what you promised",
+        "category": "violations",
+        "context": "early warning of contract failure"
+      },
+      "specific_performance": {
+        "definition": "court order requiring exact fulfillment of contract terms",
+        "simplified": "court order to do exactly what was promised",
+        "category": "remedies",
+        "context": "when money damages aren't enough"
+      },
+      "injunctive_relief": {
+        "definition": "court order to stop doing something harmful",
+        "simplified": "court order to stop harmful action",
+        "category": "remedies",
+        "context": "preventing ongoing harm"
+      },
+      "consequential_damages": {
+        "definition": "indirect losses resulting from contract breach",
+        "simplified": "indirect losses from broken promises",
+        "category": "damages",
+        "context": "lost profits, business interruption"
+      },
+      "incidental_damages": {
+        "definition": "expenses directly related to dealing with breach",
+        "simplified": "costs of dealing with the problem",
+        "category": "damages",
+        "context": "extra costs caused by breach"
+      },
+      "punitive_damages": {
+        "definition": "extra money awarded to punish wrongdoer",
+        "simplified": "extra money as punishment",
+        "category": "damages",
+        "context": "deterring bad behavior"
+      },
+      "mitigation": {
+        "definition": "reducing or minimizing damages or losses",
+        "simplified": "reducing the harm",
+        "category": "damage_control",
+        "context": "duty to minimize losses"
+      },
+      "disclaimer": {
+        "definition": "statement denying responsibility or liability",
+        "simplified": "statement saying not responsible",
+        "category": "disclaimers",
+        "context": "limiting liability"
+      },
+      "as_is": {
+        "definition": "sold in current condition without warranties",
+        "simplified": "sold as it is now",
+        "category": "conditions",
+        "context": "no guarantees about condition"
+      },
+      "fitness_for_purpose": {
+        "definition": "suitable for the intended use",
+        "simplified": "works for what you need it for",
+        "category": "warranties",
+        "context": "product suitability"
+      },
+      "merchantability": {
+        "definition": "quality suitable for ordinary use and sale",
+        "simplified": "good enough for normal use",
+        "category": "warranties",
+        "context": "basic quality standards"
+      },
+      "good_faith": {
+        "definition": "honest intention without deception or fraud",
+        "simplified": "being honest and fair",
+        "category": "conduct",
+        "context": "dealing fairly with others"
+      },
+      "best_efforts": {
+        "definition": "using maximum effort and resources to achieve goal",
+        "simplified": "trying as hard as possible",
+        "category": "obligations",
+        "context": "level of effort required"
+      },
+      "reasonable_efforts": {
+        "definition": "using normal care and effort",
+        "simplified": "trying reasonably hard",
+        "category": "obligations",
+        "context": "standard level of effort"
+      },
+      "commercially_reasonable": {
+        "definition": "what a reasonable business person would do",
+        "simplified": "what makes sense in business",
+        "category": "standards",
+        "context": "business judgment"
+      },
+      "due_diligence": {
+        "definition": "reasonable investigation or care in business matters",
+        "simplified": "careful checking and research",
+        "category": "investigation",
+        "context": "thorough examination"
+      },
+      "material_adverse_change": {
+        "definition": "significant negative change in business conditions",
+        "simplified": "major bad change in business",
+        "category": "conditions",
+        "context": "business deterioration"
+      },
+      "representations": {
+        "definition": "statements of fact made to induce contract formation",
+        "simplified": "facts stated to get agreement",
+        "category": "statements",
+        "context": "factual claims"
+      },
+      "warranties": {
+        "definition": "promises about quality, condition, or performance",
+        "simplified": "promises about how something will work",
+        "category": "promises",
+        "context": "guarantees given"
+      },
+      "indemnification": {
+        "definition": "compensation for loss, damage, or liability",
+        "simplified": "payment for losses or damages",
+        "category": "compensation",
+        "context": "protecting from financial harm"
+      },
+      "hold_harmless": {
+        "definition": "protect from liability or loss",
+        "simplified": "protect from being blamed or paying",
+        "category": "protection",
+        "context": "shifting risk"
+      },
+      "defense": {
+        "definition": "providing legal representation against claims",
+        "simplified": "providing lawyers for legal problems",
+        "category": "legal_support",
+        "context": "court representation"
+      },
+      "cross_default": {
+        "definition": "breach of one agreement triggers breach of another",
+        "simplified": "breaking one deal breaks others too",
+        "category": "linked_obligations",
+        "context": "connected agreements"
+      },
+      "acceleration": {
+        "definition": "making entire debt immediately due upon default",
+        "simplified": "all money becomes due right away",
+        "category": "payment_terms",
+        "context": "early payment trigger"
+      },
+      "standstill": {
+        "definition": "temporary suspension of rights or obligations",
+        "simplified": "temporarily stopping certain actions",
+        "category": "suspension",
+        "context": "pause in enforcement"
+      },
+      "forbearance": {
+        "definition": "refraining from enforcing a right or claim",
+        "simplified": "choosing not to enforce rights",
+        "category": "restraint",
+        "context": "giving time to cure problems"
+      },
+      "workout": {
+        "definition": "negotiated resolution of financial difficulties",
+        "simplified": "working out payment problems",
+        "category": "restructuring",
+        "context": "debt resolution"
+      },
+      "reorganization": {
+        "definition": "restructuring of business or financial arrangements",
+        "simplified": "changing how business is organized",
+        "category": "restructuring",
+        "context": "business changes"
+      },
+      "liquidation": {
+        "definition": "converting assets to cash, often in business closure",
+        "simplified": "selling everything for cash",
+        "category": "dissolution",
+        "context": "business wind-down"
+      },
+      "bankruptcy": {
+        "definition": "legal proceeding for debt relief when unable to pay",
+        "simplified": "legal protection when can't pay debts",
+        "category": "insolvency",
+        "context": "financial distress"
+      },
+      "insolvency": {
+        "definition": "inability to pay debts as they come due",
+        "simplified": "can't pay bills when due",
+        "category": "financial_distress",
+        "context": "cash flow problems"
+      },
+      "preference": {
+        "definition": "payment to creditor shortly before bankruptcy",
+        "simplified": "payment made right before bankruptcy",
+        "category": "bankruptcy_law",
+        "context": "potentially recoverable payments"
+      },
+      "fraudulent_transfer": {
+        "definition": "transfer of property to avoid paying creditors",
+        "simplified": "moving property to avoid paying debts",
+        "category": "fraudulent_conveyance",
+        "context": "asset protection abuse"
+      },
+      "voidable": {
+        "definition": "can be cancelled or made invalid",
+        "simplified": "can be cancelled",
+        "category": "validity",
+        "context": "potentially invalid transactions"
+      },
+      "void": {
+        "definition": "invalid and without legal effect",
+        "simplified": "invalid and worthless",
+        "category": "validity",
+        "context": "legally meaningless"
+      },
+      "unenforceable": {
+        "definition": "valid but cannot be enforced by courts",
+        "simplified": "valid but courts won't enforce",
+        "category": "enforceability",
+        "context": "legal but not enforceable"
+      },
+      "ultra_vires": {
+        "definition": "beyond the legal authority of corporation",
+        "simplified": "beyond company's legal power",
+        "category": "corporate_authority",
+        "context": "exceeding corporate powers"
+      },
+      "piercing_corporate_veil": {
+        "definition": "holding shareholders personally liable for corporate debts",
+        "simplified": "making owners pay company debts personally",
+        "category": "corporate_liability",
+        "context": "personal liability for corporate acts"
+      },
+      "fiduciary_duty": {
+        "definition": "legal obligation to act in another's best interest",
+        "simplified": "legal duty to put someone else's interests first",
+        "category": "duties",
+        "context": "trust relationships"
+      },
+      "duty_of_care": {
+        "definition": "obligation to exercise reasonable care",
+        "simplified": "duty to be careful",
+        "category": "duties",
+        "context": "standard of care"
+      },
+      "duty_of_loyalty": {
+        "definition": "obligation to act in principal's best interest",
+        "simplified": "duty to be loyal",
+        "category": "duties",
+        "context": "avoiding conflicts of interest"
+      },
+      "conflict_of_interest": {
+        "definition": "situation where personal interest conflicts with duty",
+        "simplified": "when personal interests conflict with job duties",
+        "category": "conflicts",
+        "context": "competing loyalties"
+      },
+      "self_dealing": {
+        "definition": "acting for personal benefit at expense of duty",
+        "simplified": "putting personal interests first",
+        "category": "misconduct",
+        "context": "breach of fiduciary duty"
+      },
+      "business_judgment_rule": {
+        "definition": "legal protection for directors' business decisions",
+        "simplified": "protection for business decisions",
+        "category": "director_protection",
+        "context": "corporate governance"
+      },
+      "derivative_suit": {
+        "definition": "lawsuit by shareholder on behalf of corporation",
+        "simplified": "shareholder suing for the company",
+        "category": "litigation",
+        "context": "shareholder rights"
+      },
+      "proxy": {
+        "definition": "authorization to vote on someone else's behalf",
+        "simplified": "permission to vote for someone else",
+        "category": "voting",
+        "context": "shareholder voting"
+      },
+      "quorum": {
+        "definition": "minimum number of members needed for valid meeting",
+        "simplified": "minimum number needed for meeting",
+        "category": "meetings",
+        "context": "voting requirements"
+      },
+      "supermajority": {
+        "definition": "more than simple majority, typically two-thirds",
+        "simplified": "more than half, usually two-thirds",
+        "category": "voting",
+        "context": "higher approval threshold"
+      },
+      "cumulative_voting": {
+        "definition": "voting system allowing concentration of votes",
+        "simplified": "system letting you put all votes on one choice",
+        "category": "voting",
+        "context": "minority shareholder protection"
+      },
+      "preemptive_rights": {
+        "definition": "right to buy new shares to maintain ownership percentage",
+        "simplified": "right to buy new shares first",
+        "category": "shareholder_rights",
+        "context": "maintaining ownership"
+      },
+      "dilution": {
+        "definition": "reduction in ownership percentage due to new shares",
+        "simplified": "ownership getting smaller due to new shares",
+        "category": "ownership",
+        "context": "equity reduction"
+      },
+      "anti_dilution": {
+        "definition": "protection against ownership percentage reduction",
+        "simplified": "protection against ownership reduction",
+        "category": "protection",
+        "context": "maintaining equity percentage"
+      },
+      "drag_along": {
+        "definition": "right to force minority to sell when majority sells",
+        "simplified": "forcing everyone to sell together",
+        "category": "sale_rights",
+        "context": "coordinated sales"
+      },
+      "tag_along": {
+        "definition": "right to sell with majority shareholder",
+        "simplified": "right to sell when others sell",
+        "category": "sale_rights",
+        "context": "minority protection"
+      },
+      "put_option": {
+        "definition": "right to force someone to buy your shares",
+        "simplified": "right to force a sale",
+        "category": "options",
+        "context": "forced sale rights"
+      },
+      "call_option": {
+        "definition": "right to buy shares at specified price",
+        "simplified": "right to buy at set price",
+        "category": "options",
+        "context": "purchase rights"
+      },
+      "vesting": {
+        "definition": "earning the right to something over time",
+        "simplified": "earning rights gradually",
+        "category": "earned_rights",
+        "context": "stock options, benefits"
+      },
+      "cliff": {
+        "definition": "period before any vesting begins",
+        "simplified": "waiting period before earning starts",
+        "category": "vesting",
+        "context": "initial waiting period"
+      },
+      "acceleration": {
+        "definition": "speeding up vesting upon certain events",
+        "simplified": "earning rights faster due to events",
+        "category": "vesting",
+        "context": "triggered faster earning"
+      },
+      "golden_parachute": {
+        "definition": "large compensation upon termination or acquisition",
+        "simplified": "big payment when fired or company sold",
+        "category": "executive_compensation",
+        "context": "change of control benefits"
+      },
+      "clawback": {
+        "definition": "right to recover compensation already paid",
+        "simplified": "right to take back money already paid",
+        "category": "recovery",
+        "context": "compensation recovery"
+      },
+      "earnout": {
+        "definition": "additional payment based on future performance",
+        "simplified": "extra payment if goals are met",
+        "category": "contingent_payments",
+        "context": "performance-based compensation"
+      },
+      "escrow_agent": {
+        "definition": "neutral third party holding funds or documents",
+        "simplified": "neutral party holding money or papers",
+        "category": "intermediaries",
+        "context": "secure holding arrangements"
+      },
+      "closing": {
+        "definition": "final step where transaction is completed",
+        "simplified": "when the deal is finished",
+        "category": "transaction_completion",
+        "context": "deal finalization"
+      },
+      "due_date": {
+        "definition": "date when payment or performance is required",
+        "simplified": "when payment is due",
+        "category": "timing",
+        "context": "payment deadlines"
+      },
+      "grace_period": {
+        "definition": "additional time allowed for payment or performance",
+        "simplified": "extra time to pay or perform",
+        "category": "timing",
+        "context": "extended deadlines"
+      },
+      "late_fee": {
+        "definition": "charge for payment after due date",
+        "simplified": "charge for paying late",
+        "category": "penalties",
+        "context": "tardiness penalties"
+      },
+      "interest": {
+        "definition": "charge for use of money over time",
+        "simplified": "cost of borrowing money",
+        "category": "finance",
+        "context": "time value of money"
+      },
+      "compound_interest": {
+        "definition": "interest calculated on principal plus accumulated interest",
+        "simplified": "interest on interest",
+        "category": "finance",
+        "context": "exponential growth"
+      },
+      "simple_interest": {
+        "definition": "interest calculated only on principal amount",
+        "simplified": "interest only on original amount",
+        "category": "finance",
+        "context": "basic interest calculation"
+      },
+      "principal": {
+        "definition": "original amount of money borrowed or invested",
+        "simplified": "original amount of money",
+        "category": "finance",
+        "context": "base amount before interest"
+      },
+      "maturity": {
+        "definition": "date when loan or investment becomes due",
+        "simplified": "when money must be paid back",
+        "category": "timing",
+        "context": "loan repayment date"
+      },
+      "prepayment": {
+        "definition": "paying before the due date",
+        "simplified": "paying early",
+        "category": "payments",
+        "context": "early payment"
+      },
+      "prepayment_penalty": {
+        "definition": "charge for paying loan early",
+        "simplified": "fee for paying early",
+        "category": "penalties",
+        "context": "early payment cost"
+      },
+      "refinancing": {
+        "definition": "replacing existing loan with new loan",
+        "simplified": "getting new loan to pay off old one",
+        "category": "finance",
+        "context": "loan replacement"
+      },
+      "collateral": {
+        "definition": "property pledged as security for loan",
+        "simplified": "property promised as backup for loan",
+        "category": "security",
+        "context": "loan protection"
+      },
+      "security_interest": {
+        "definition": "legal claim on property as loan security",
+        "simplified": "legal claim on property for loan",
+        "category": "security",
+        "context": "secured lending"
+      },
+      "perfection": {
+        "definition": "completing legal steps to secure priority in collateral",
+        "simplified": "completing steps to secure claim on property",
+        "category": "security",
+        "context": "securing priority rights"
+      },
+      "foreclosure": {
+        "definition": "legal process to recover loan through collateral sale",
+        "simplified": "selling pledged property to recover loan",
+        "category": "enforcement",
+        "context": "collateral recovery"
+      },
+      "default": {
+        "definition": "failure to meet contractual obligations",
+        "simplified": "not doing what was promised",
+        "category": "violations",
+        "context": "contract non-performance"
+      },
+      "event_of_default": {
+        "definition": "specific condition that constitutes default",
+        "simplified": "specific thing that counts as breaking the deal",
+        "category": "violations",
+        "context": "default triggers"
+      },
+      "notice_of_default": {
+        "definition": "formal notification of contract violation",
+        "simplified": "official notice of contract violation",
+        "category": "notifications",
+        "context": "default communication"
+      },
+      "right_to_cure": {
+        "definition": "opportunity to fix breach before consequences",
+        "simplified": "chance to fix the problem",
+        "category": "remedies",
+        "context": "opportunity to correct"
+      },
+      "acceleration_clause": {
+        "definition": "provision making entire debt due upon default",
+        "simplified": "rule making all money due if you break the deal",
+        "category": "enforcement",
+        "context": "immediate payment trigger"
+      },
+      "personal_guarantee": {
+        "definition": "individual's promise to pay if entity defaults",
+        "simplified": "person's promise to pay if company doesn't",
+        "category": "guarantees",
+        "context": "individual backup for corporate debt"
+      },
+      "corporate_guarantee": {
+        "definition": "company's promise to pay if affiliate defaults",
+        "simplified": "company's promise to pay if related company doesn't",
+        "category": "guarantees",
+        "context": "corporate backup for affiliate debt"
+      },
+      "guarantor": {
+        "definition": "person or entity providing guarantee",
+        "simplified": "person or company giving backup promise",
+        "category": "guarantees",
+        "context": "party providing security"
+      },
+      "surety": {
+        "definition": "party responsible for another's debt or obligation",
+        "simplified": "party responsible for someone else's debt",
+        "category": "guarantees",
+        "context": "third-party liability"
+      },
+      "co_signer": {
+        "definition": "person who signs loan with primary borrower",
+        "simplified": "person who signs loan together",
+        "category": "guarantees",
+        "context": "joint responsibility"
+      },
+      "joint_and_several": {
+        "definition": "each party fully liable for entire obligation",
+        "simplified": "each person responsible for the whole amount",
+        "category": "liability",
+        "context": "full individual liability"
+      },
+      "several_liability": {
+        "definition": "each party liable only for their portion",
+        "simplified": "each person responsible for their own part",
+        "category": "liability",
+        "context": "proportional responsibility"
+      },
+      "pro_rata": {
+        "definition": "proportional to each party's share or interest",
+        "simplified": "split according to each person's share",
+        "category": "proportional",
+        "context": "proportional allocation"
+      },
+      "pari_passu": {
+        "definition": "on equal footing with others",
+        "simplified": "treated equally with others",
+        "category": "equality",
+        "context": "equal treatment"
+      },
+      "subordination": {
+        "definition": "lower priority claim in payment or security",
+        "simplified": "lower priority for payment",
+        "category": "priority",
+        "context": "payment ranking"
+      },
+      "senior": {
+        "definition": "higher priority claim in payment or security",
+        "simplified": "higher priority for payment",
+        "category": "priority",
+        "context": "superior payment rights"
+      },
+      "junior": {
+        "definition": "lower priority claim in payment or security",
+        "simplified": "lower priority for payment",
+        "category": "priority",
+        "context": "inferior payment rights"
+      },
+      "mezzanine": {
+        "definition": "hybrid financing between debt and equity",
+        "simplified": "financing that's part loan, part ownership",
+        "category": "finance",
+        "context": "hybrid capital structure"
+      },
+      "convertible": {
+        "definition": "security that can be changed into another type",
+        "simplified": "investment that can be changed to another type",
+        "category": "securities",
+        "context": "changeable investments"
+      },
+      "warrant": {
+        "definition": "right to buy securities at specified price",
+        "simplified": "right to buy stock at set price",
+        "category": "securities",
+        "context": "purchase rights"
+      },
+      "option": {
+        "definition": "right to buy or sell at specified price and time",
+        "simplified": "right to buy or sell at set price",
+        "category": "securities",
+        "context": "trading rights"
+      },
+      "exercise": {
+        "definition": "using a right, such as option or warrant",
+        "simplified": "using a right you have",
+        "category": "actions",
+        "context": "implementing rights"
+      },
+      "strike_price": {
+        "definition": "price at which option or warrant can be exercised",
+        "simplified": "set price for using option",
+        "category": "pricing",
+        "context": "option exercise price"
+      },
+      "expiration": {
+        "definition": "date when right or obligation ends",
+        "simplified": "when right or duty ends",
+        "category": "timing",
+        "context": "end date"
+      },
+      "time_value": {
+        "definition": "portion of option value based on time remaining",
+        "simplified": "value from time left on option",
+        "category": "valuation",
+        "context": "time-based value"
+      },
+      "intrinsic_value": {
+        "definition": "actual value of option based on current price vs strike price",
+        "simplified": "real value of option right now",
+        "category": "valuation",
+        "context": "immediate option value"
+      },
+      "at_will_employment": {
+        "definition": "employment that can be terminated by either party at any time",
+        "simplified": "job that can be ended by either side anytime",
+        "category": "employment",
+        "context": "flexible employment arrangement"
+      },
+      "wrongful_termination": {
+        "definition": "firing employee in violation of law or contract",
+        "simplified": "firing someone illegally",
+        "category": "employment",
+        "context": "illegal dismissal"
+      },
+      "severance_package": {
+        "definition": "compensation given to employee upon termination",
+        "simplified": "payment when job ends",
+        "category": "employment",
+        "context": "termination benefits"
+      },
+      "non_disclosure_agreement": {
+        "definition": "contract preventing sharing of confidential information",
+        "simplified": "agreement to keep information secret",
+        "category": "employment",
+        "context": "information protection"
+      },
+      "non_compete_clause": {
+        "definition": "restriction on working for competitors after leaving",
+        "simplified": "rule against working for competitors",
+        "category": "employment",
+        "context": "post-employment restrictions"
+      },
+      "garden_leave": {
+        "definition": "paid leave during notice period to prevent competition",
+        "simplified": "paid time off before leaving job",
+        "category": "employment",
+        "context": "transition period protection"
+      },
+      "constructive_dismissal": {
+        "definition": "making working conditions so bad employee must quit",
+        "simplified": "forcing someone to quit by making job terrible",
+        "category": "employment",
+        "context": "indirect termination"
+      },
+      "whistleblower_protection": {
+        "definition": "legal protection for reporting wrongdoing",
+        "simplified": "protection for reporting bad behavior",
+        "category": "employment",
+        "context": "reporting violations"
+      },
+      "collective_bargaining": {
+        "definition": "negotiation between employer and union representatives",
+        "simplified": "union and company negotiating together",
+        "category": "employment",
+        "context": "labor relations"
+      },
+      "grievance_procedure": {
+        "definition": "formal process for employee complaints",
+        "simplified": "official way to complain about work problems",
+        "category": "employment",
+        "context": "dispute resolution"
+      },
+      "performance_improvement_plan": {
+        "definition": "formal plan to address employee performance issues",
+        "simplified": "plan to help employee do better at work",
+        "category": "employment",
+        "context": "performance management"
+      },
+      "equity_compensation": {
+        "definition": "payment in company stock or stock options",
+        "simplified": "getting paid with company ownership",
+        "category": "employment",
+        "context": "ownership-based pay"
+      },
+      "stock_options": {
+        "definition": "right to buy company stock at fixed price",
+        "simplified": "right to buy company stock at set price",
+        "category": "employment",
+        "context": "employee ownership incentives"
+      },
+      "restricted_stock": {
+        "definition": "company shares with limitations on transfer or sale",
+        "simplified": "company shares with restrictions",
+        "category": "employment",
+        "context": "conditional stock ownership"
+      },
+      "earnback_provision": {
+        "definition": "requirement to return compensation under certain conditions",
+        "simplified": "rule to pay back money in some situations",
+        "category": "employment",
+        "context": "compensation recovery"
+      },
+      "deed_of_trust": {
+        "definition": "security instrument where trustee holds property title",
+        "simplified": "document where third party holds property deed",
+        "category": "real_estate",
+        "context": "property security arrangement"
+      },
+      "mortgage": {
+        "definition": "loan secured by real property",
+        "simplified": "loan using property as backup",
+        "category": "real_estate",
+        "context": "property financing"
+      },
+      "promissory_note": {
+        "definition": "written promise to pay specific amount",
+        "simplified": "written promise to pay money",
+        "category": "real_estate",
+        "context": "debt documentation"
+      },
+      "lien": {
+        "definition": "legal claim against property for unpaid debt",
+        "simplified": "legal claim on property for unpaid money",
+        "category": "real_estate",
+        "context": "property encumbrance"
+      },
+      "easement": {
+        "definition": "right to use another's property for specific purpose",
+        "simplified": "right to use someone else's property",
+        "category": "real_estate",
+        "context": "property use rights"
+      },
+      "right_of_way": {
+        "definition": "right to pass through another's property",
+        "simplified": "right to cross someone else's property",
+        "category": "real_estate",
+        "context": "access rights"
+      },
+      "covenant": {
+        "definition": "promise in property deed about use or maintenance",
+        "simplified": "promise about how to use or maintain property",
+        "category": "real_estate",
+        "context": "property use restrictions"
+      },
+      "homeowners_association": {
+        "definition": "organization managing common areas and rules",
+        "simplified": "group managing neighborhood rules and areas",
+        "category": "real_estate",
+        "context": "community management"
+      },
+      "cc_and_rs": {
+        "definition": "covenants, conditions, and restrictions on property use",
+        "simplified": "rules about how property can be used",
+        "category": "real_estate",
+        "context": "property use limitations"
+      },
+      "title_insurance": {
+        "definition": "insurance protecting against title defects",
+        "simplified": "insurance protecting property ownership",
+        "category": "real_estate",
+        "context": "ownership protection"
+      },
+      "escrow": {
+        "definition": "neutral third party holding funds during transaction",
+        "simplified": "neutral party holding money during sale",
+        "category": "real_estate",
+        "context": "transaction security"
+      },
+      "contingency": {
+        "definition": "condition that must be met for contract to proceed",
+        "simplified": "condition that must happen for deal to continue",
+        "category": "real_estate",
+        "context": "conditional requirements"
+      },
+      "due_diligence_period": {
+        "definition": "time allowed for buyer to investigate property",
+        "simplified": "time for buyer to check out property",
+        "category": "real_estate",
+        "context": "investigation period"
+      },
+      "inspection_contingency": {
+        "definition": "buyer's right to cancel based on property condition",
+        "simplified": "buyer can cancel if property has problems",
+        "category": "real_estate",
+        "context": "property condition protection"
+      },
+      "financing_contingency": {
+        "definition": "buyer's right to cancel if unable to obtain loan",
+        "simplified": "buyer can cancel if can't get loan",
+        "category": "real_estate",
+        "context": "loan approval protection"
+      },
+      "appraisal_contingency": {
+        "definition": "buyer's right to cancel if property value insufficient",
+        "simplified": "buyer can cancel if property worth less than price",
+        "category": "real_estate",
+        "context": "value protection"
+      },
+      "earnest_money": {
+        "definition": "deposit showing buyer's serious intent to purchase",
+        "simplified": "deposit showing buyer is serious",
+        "category": "real_estate",
+        "context": "purchase commitment"
+      },
+      "closing_costs": {
+        "definition": "fees paid at property transfer completion",
+        "simplified": "fees paid when property sale finishes",
+        "category": "real_estate",
+        "context": "transaction expenses"
+      },
+      "prorated": {
+        "definition": "divided proportionally based on time period",
+        "simplified": "split based on time owned",
+        "category": "real_estate",
+        "context": "proportional cost allocation"
+      },
+      "tenant": {
+        "definition": "person who rents property from owner",
+        "simplified": "person who rents property",
+        "category": "real_estate",
+        "context": "rental relationship"
+      },
+      "landlord": {
+        "definition": "property owner who rents to tenants",
+        "simplified": "property owner who rents out property",
+        "category": "real_estate",
+        "context": "rental relationship"
+      },
+      "lease": {
+        "definition": "contract for renting property",
+        "simplified": "rental agreement",
+        "category": "real_estate",
+        "context": "rental contract"
+      },
+      "security_deposit": {
+        "definition": "money held to cover potential damages or unpaid rent",
+        "simplified": "money held in case of damage or unpaid rent",
+        "category": "real_estate",
+        "context": "rental protection"
+      },
+      "triple_net_lease": {
+        "definition": "tenant pays rent plus taxes, insurance, and maintenance",
+        "simplified": "tenant pays rent plus all property expenses",
+        "category": "real_estate",
+        "context": "commercial lease type"
+      },
+      "gross_lease": {
+        "definition": "landlord pays all property expenses except rent",
+        "simplified": "landlord pays all expenses except rent",
+        "category": "real_estate",
+        "context": "commercial lease type"
+      },
+      "sublease": {
+        "definition": "tenant rents property to another person",
+        "simplified": "renter renting to someone else",
+        "category": "real_estate",
+        "context": "secondary rental"
+      },
+      "assignment_of_lease": {
+        "definition": "transfer of lease rights to another party",
+        "simplified": "giving lease rights to someone else",
+        "category": "real_estate",
+        "context": "lease transfer"
+      },
+      "eviction": {
+        "definition": "legal process to remove tenant from property",
+        "simplified": "legal process to kick out renter",
+        "category": "real_estate",
+        "context": "tenant removal"
+      },
+      "habitability": {
+        "definition": "property condition suitable for living",
+        "simplified": "property good enough to live in",
+        "category": "real_estate",
+        "context": "livability standards"
+      },
+      "quiet_enjoyment": {
+        "definition": "tenant's right to use property without interference",
+        "simplified": "tenant's right to peaceful use of property",
+        "category": "real_estate",
+        "context": "tenant rights"
+      },
+      "software_license": {
+        "definition": "permission to use software under specified conditions",
+        "simplified": "permission to use software with rules",
+        "category": "technology",
+        "context": "software usage rights"
+      },
+      "end_user_license_agreement": {
+        "definition": "contract between software provider and user",
+        "simplified": "agreement between software maker and user",
+        "category": "technology",
+        "context": "software usage terms"
+      },
+      "open_source": {
+        "definition": "software with freely available source code",
+        "simplified": "software with free and open code",
+        "category": "technology",
+        "context": "free software licensing"
+      },
+      "proprietary_software": {
+        "definition": "software owned and controlled by specific entity",
+        "simplified": "software owned by one company",
+        "category": "technology",
+        "context": "owned software"
+      },
+      "saas": {
+        "definition": "software as a service delivered over internet",
+        "simplified": "software used through internet",
+        "category": "technology",
+        "context": "cloud-based software"
+      },
+      "api": {
+        "definition": "application programming interface for software interaction",
+        "simplified": "way for software programs to talk to each other",
+        "category": "technology",
+        "context": "software integration"
+      },
+      "data_processing_agreement": {
+        "definition": "contract governing how personal data is handled",
+        "simplified": "agreement about handling personal information",
+        "category": "technology",
+        "context": "privacy compliance"
+      },
+      "gdpr_compliance": {
+        "definition": "adherence to European data protection regulations",
+        "simplified": "following European privacy rules",
+        "category": "technology",
+        "context": "privacy law compliance"
+      },
+      "data_breach": {
+        "definition": "unauthorized access to confidential data",
+        "simplified": "unauthorized access to private information",
+        "category": "technology",
+        "context": "security incident"
+      },
+      "cybersecurity": {
+        "definition": "protection of digital systems from threats",
+        "simplified": "protecting computer systems from attacks",
+        "category": "technology",
+        "context": "digital security"
+      },
+      "cloud_computing": {
+        "definition": "delivery of computing services over internet",
+        "simplified": "computer services delivered through internet",
+        "category": "technology",
+        "context": "internet-based computing"
+      },
+      "uptime_guarantee": {
+        "definition": "promise about system availability percentage",
+        "simplified": "promise about how often system works",
+        "category": "technology",
+        "context": "service reliability"
+      },
+      "disaster_recovery": {
+        "definition": "plan to restore systems after major failure",
+        "simplified": "plan to fix systems after big problems",
+        "category": "technology",
+        "context": "business continuity"
+      },
+      "backup_and_recovery": {
+        "definition": "process of copying and restoring data",
+        "simplified": "copying and restoring information",
+        "category": "technology",
+        "context": "data protection"
+      },
+      "encryption": {
+        "definition": "converting data into coded form for security",
+        "simplified": "turning data into secret code",
+        "category": "technology",
+        "context": "data security"
+      },
+      "digital_signature": {
+        "definition": "electronic signature proving identity and integrity",
+        "simplified": "electronic signature proving who signed",
+        "category": "technology",
+        "context": "electronic authentication"
+      },
+      "blockchain": {
+        "definition": "distributed ledger technology for secure transactions",
+        "simplified": "secure way to record transactions across computers",
+        "category": "technology",
+        "context": "distributed ledger"
+      },
+      "smart_contract": {
+        "definition": "self-executing contract with terms in computer code",
+        "simplified": "computer program that automatically enforces agreements",
+        "category": "technology",
+        "context": "automated contracts"
+      },
+      "artificial_intelligence": {
+        "definition": "computer systems performing tasks requiring human intelligence",
+        "simplified": "computers doing tasks that need human thinking",
+        "category": "technology",
+        "context": "machine intelligence"
+      },
+      "machine_learning": {
+        "definition": "AI systems that improve automatically through experience",
+        "simplified": "computer programs that learn from experience",
+        "category": "technology",
+        "context": "learning algorithms"
+      },
+      "algorithm": {
+        "definition": "set of rules or instructions for solving problems",
+        "simplified": "step-by-step instructions for computers",
+        "category": "technology",
+        "context": "computational processes"
+      },
+      "source_code_escrow": {
+        "definition": "storing program code with neutral third party",
+        "simplified": "keeping program code with neutral party",
+        "category": "technology",
+        "context": "software protection"
+      },
+      "version_control": {
+        "definition": "system for tracking changes to files over time",
+        "simplified": "system for tracking file changes",
+        "category": "technology",
+        "context": "change management"
+      },
+      "beta_testing": {
+        "definition": "testing software before public release",
+        "simplified": "testing software before everyone can use it",
+        "category": "technology",
+        "context": "pre-release testing"
+      },
+      "bug_fix": {
+        "definition": "correction of software error or defect",
+        "simplified": "fixing problems in software",
+        "category": "technology",
+        "context": "software maintenance"
+      },
+      "software_update": {
+        "definition": "new version with improvements or fixes",
+        "simplified": "new version with improvements",
+        "category": "technology",
+        "context": "software enhancement"
+      },
+      "legacy_system": {
+        "definition": "older technology still in use",
+        "simplified": "old technology still being used",
+        "category": "technology",
+        "context": "outdated systems"
+      },
+      "migration": {
+        "definition": "moving from one system to another",
+        "simplified": "switching from old system to new one",
+        "category": "technology",
+        "context": "system transition"
+      },
+      "interoperability": {
+        "definition": "ability of systems to work together",
+        "simplified": "different systems working together",
+        "category": "technology",
+        "context": "system compatibility"
+      },
+      "scalability": {
+        "definition": "ability to handle increased workload",
+        "simplified": "ability to grow and handle more work",
+        "category": "technology",
+        "context": "system growth capacity"
+      },
+      "bandwidth": {
+        "definition": "maximum data transfer rate of network",
+        "simplified": "how fast data can move through network",
+        "category": "technology",
+        "context": "network capacity"
+      },
+      "latency": {
+        "definition": "delay in data transmission",
+        "simplified": "delay in sending data",
+        "category": "technology",
+        "context": "network performance"
+      },
+      "firewall": {
+        "definition": "security system controlling network access",
+        "simplified": "security barrier protecting network",
+        "category": "technology",
+        "context": "network security"
+      },
+      "penetration_testing": {
+        "definition": "authorized testing of system security",
+        "simplified": "testing security by trying to break in",
+        "category": "technology",
+        "context": "security assessment"
+      },
+      "vulnerability": {
+        "definition": "weakness that could be exploited",
+        "simplified": "weakness that could be attacked",
+        "category": "technology",
+        "context": "security flaw"
+      },
+      "patch": {
+        "definition": "software update fixing security or functionality issues",
+        "simplified": "software fix for problems",
+        "category": "technology",
+        "context": "security and bug fixes"
+      },
+      "multi_factor_authentication": {
+        "definition": "security requiring multiple forms of verification",
+        "simplified": "security requiring multiple proofs of identity",
+        "category": "technology",
+        "context": "enhanced security"
+      },
+      "single_sign_on": {
+        "definition": "using one login for multiple systems",
+        "simplified": "one login for many systems",
+        "category": "technology",
+        "context": "user convenience"
+      },
+      "user_acceptance_testing": {
+        "definition": "final testing by end users before deployment",
+        "simplified": "final testing by actual users",
+        "category": "technology",
+        "context": "pre-deployment validation"
+      },
+      "minimum_viable_product": {
+        "definition": "basic version with core features for early users",
+        "simplified": "basic version with essential features",
+        "category": "technology",
+        "context": "product development"
+      },
+      "agile_development": {
+        "definition": "iterative software development methodology",
+        "simplified": "building software in small, repeated steps",
+        "category": "technology",
+        "context": "development methodology"
+      },
+      "waterfall_methodology": {
+        "definition": "sequential software development approach",
+        "simplified": "step-by-step software development",
+        "category": "technology",
+        "context": "development methodology"
+      },
+      "sprint": {
+        "definition": "short development cycle in agile methodology",
+        "simplified": "short work period in agile development",
+        "category": "technology",
+        "context": "agile development"
+      },
+      "scrum_master": {
+        "definition": "facilitator in agile development process",
+        "simplified": "person who helps agile team work together",
+        "category": "technology",
+        "context": "agile roles"
+      },
+      "product_owner": {
+        "definition": "person defining product requirements and priorities",
+        "simplified": "person who decides what product should do",
+        "category": "technology",
+        "context": "product management"
+      },
+      "user_story": {
+        "definition": "informal description of software feature from user perspective",
+        "simplified": "simple description of what user wants",
+        "category": "technology",
+        "context": "requirements definition"
+      },
+      "acceptance_criteria": {
+        "definition": "conditions that must be met for feature to be complete",
+        "simplified": "requirements for feature to be finished",
+        "category": "technology",
+        "context": "completion standards"
+      },
+      "technical_debt": {
+        "definition": "cost of additional work caused by quick solutions",
+        "simplified": "extra work needed due to shortcuts",
+        "category": "technology",
+        "context": "development trade-offs"
+      },
+      "refactoring": {
+        "definition": "improving code structure without changing functionality",
+        "simplified": "cleaning up code without changing what it does",
+        "category": "technology",
+        "context": "code improvement"
+      },
+      "code_review": {
+        "definition": "examination of code by other developers",
+        "simplified": "other programmers checking your code",
+        "category": "technology",
+        "context": "quality assurance"
+      },
+      "continuous_integration": {
+        "definition": "frequent merging of code changes with automated testing",
+        "simplified": "regularly combining code changes with automatic testing",
+        "category": "technology",
+        "context": "development practice"
+      },
+      "continuous_deployment": {
+        "definition": "automated release of code changes to production",
+        "simplified": "automatically releasing code changes to users",
+        "category": "technology",
+        "context": "deployment automation"
+      },
+      "devops": {
+        "definition": "combining development and operations practices",
+        "simplified": "combining programming and system management",
+        "category": "technology",
+        "context": "operational methodology"
+      },
+      "containerization": {
+        "definition": "packaging software with its dependencies",
+        "simplified": "packaging software with everything it needs",
+        "category": "technology",
+        "context": "deployment technology"
+      },
+      "microservices": {
+        "definition": "architectural approach using small, independent services",
+        "simplified": "building software as small, separate pieces",
+        "category": "technology",
+        "context": "software architecture"
+      },
+      "monolith": {
+        "definition": "single large application containing all functionality",
+        "simplified": "one big application with everything in it",
+        "category": "technology",
+        "context": "software architecture"
+      },
+      "load_balancing": {
+        "definition": "distributing work across multiple systems",
+        "simplified": "spreading work across multiple computers",
+        "category": "technology",
+        "context": "performance optimization"
+      },
+      "caching": {
+        "definition": "storing frequently used data for quick access",
+        "simplified": "saving commonly used information for speed",
+        "category": "technology",
+        "context": "performance optimization"
+      },
+      "database": {
+        "definition": "organized collection of structured information",
+        "simplified": "organized storage of information",
+        "category": "technology",
+        "context": "data storage"
+      },
+      "sql": {
+        "definition": "structured query language for database operations",
+        "simplified": "language for working with databases",
+        "category": "technology",
+        "context": "database management"
+      },
+      "nosql": {
+        "definition": "non-relational database management system",
+        "simplified": "flexible database without strict structure",
+        "category": "technology",
+        "context": "database technology"
+      },
+      "data_warehouse": {
+        "definition": "central repository for integrated data from multiple sources",
+        "simplified": "central storage for data from many sources",
+        "category": "technology",
+        "context": "data management"
+      },
+      "data_lake": {
+        "definition": "storage repository holding raw data in native format",
+        "simplified": "storage for raw data in original format",
+        "category": "technology",
+        "context": "big data storage"
+      },
+      "big_data": {
+        "definition": "extremely large datasets requiring special processing",
+        "simplified": "very large amounts of data",
+        "category": "technology",
+        "context": "data volume"
+      },
+      "data_analytics": {
+        "definition": "process of examining data to draw conclusions",
+        "simplified": "analyzing data to find insights",
+        "category": "technology",
+        "context": "data analysis"
+      },
+      "business_intelligence": {
+        "definition": "technologies for analyzing business information",
+        "simplified": "tools for understanding business data",
+        "category": "technology",
+        "context": "business analysis"
+      },
+      "predictive_analytics": {
+        "definition": "using data to predict future outcomes",
+        "simplified": "using data to predict what will happen",
+        "category": "technology",
+        "context": "forecasting"
+      },
+      "data_visualization": {
+        "definition": "presenting data in graphical format",
+        "simplified": "showing data in charts and graphs",
+        "category": "technology",
+        "context": "data presentation"
+      },
+      "dashboard": {
+        "definition": "visual display of key information and metrics",
+        "simplified": "screen showing important information",
+        "category": "technology",
+        "context": "information display"
+      },
+      "kpi": {
+        "definition": "key performance indicator measuring success",
+        "simplified": "number showing how well something is doing",
+        "category": "technology",
+        "context": "performance measurement"
+      },
+      "roi": {
+        "definition": "return on investment measuring profitability",
+        "simplified": "how much profit you get from spending money",
+        "category": "technology",
+        "context": "financial measurement"
+      },
+      "sla": {
+        "definition": "service level agreement defining service standards",
+        "simplified": "promise about quality of service",
+        "category": "technology",
+        "context": "service commitment"
+      },
+      "rpo": {
+        "definition": "recovery point objective for acceptable data loss",
+        "simplified": "how much data loss is acceptable",
+        "category": "technology",
+        "context": "disaster recovery"
+      },
+      "rto": {
+        "definition": "recovery time objective for system restoration",
+        "simplified": "how quickly system must be restored",
+        "category": "technology",
+        "context": "disaster recovery"
+      },
+      "business_continuity": {
+        "definition": "planning to maintain operations during disruptions",
+        "simplified": "planning to keep business running during problems",
+        "category": "technology",
+        "context": "operational resilience"
+      },
+      "risk_assessment": {
+        "definition": "evaluation of potential threats and vulnerabilities",
+        "simplified": "checking what bad things could happen",
+        "category": "technology",
+        "context": "risk management"
+      },
+      "compliance": {
+        "definition": "adherence to laws, regulations, and standards",
+        "simplified": "following rules and laws",
+        "category": "technology",
+        "context": "regulatory adherence"
+      },
+      "audit_trail": {
+        "definition": "chronological record of system activities",
+        "simplified": "record of what happened and when",
+        "category": "technology",
+        "context": "accountability tracking"
+      },
+      "access_control": {
+        "definition": "regulating who can view or use resources",
+        "simplified": "controlling who can see or use things",
+        "category": "technology",
+        "context": "security management"
+      },
+      "role_based_access": {
+        "definition": "access permissions based on user's job function",
+        "simplified": "giving access based on job role",
+        "category": "technology",
+        "context": "permission management"
+      },
+      "least_privilege": {
+        "definition": "giving minimum access necessary to perform job",
+        "simplified": "giving only access needed for job",
+        "category": "technology",
+        "context": "security principle"
+      },
+      "zero_trust": {
+        "definition": "security model requiring verification for all access",
+        "simplified": "security approach trusting nothing by default",
+        "category": "technology",
+        "context": "security framework"
+      },
+      "incident_response": {
+        "definition": "organized approach to addressing security breaches",
+        "simplified": "plan for handling security problems",
+        "category": "technology",
+        "context": "security management"
+      },
+      "forensics": {
+        "definition": "investigation of digital evidence after incidents",
+        "simplified": "investigating computer evidence after problems",
+        "category": "technology",
+        "context": "incident investigation"
+      },
+      "threat_modeling": {
+        "definition": "process of identifying potential security threats",
+        "simplified": "identifying possible security problems",
+        "category": "technology",
+        "context": "security planning"
+      },
+      "security_by_design": {
+        "definition": "building security into systems from beginning",
+        "simplified": "including security from the start",
+        "category": "technology",
+        "context": "security approach"
+      },
+      "privacy_by_design": {
+        "definition": "building privacy protection into systems from start",
+        "simplified": "including privacy protection from beginning",
+        "category": "technology",
+        "context": "privacy approach"
+      },
+      "data_minimization": {
+        "definition": "collecting only necessary personal information",
+        "simplified": "collecting only needed personal information",
+        "category": "technology",
+        "context": "privacy principle"
+      },
+      "right_to_be_forgotten": {
+        "definition": "individual's right to have personal data deleted",
+        "simplified": "right to have personal information deleted",
+        "category": "technology",
+        "context": "privacy rights"
+      },
+      "data_portability": {
+        "definition": "right to transfer personal data between services",
+        "simplified": "right to move personal data between services",
+        "category": "technology",
+        "context": "privacy rights"
+      },
+      "consent_management": {
+        "definition": "system for managing user permissions for data use",
+        "simplified": "system for managing user permission to use data",
+        "category": "technology",
+        "context": "privacy compliance"
+      },
+      "pseudonymization": {
+        "definition": "replacing identifying information with artificial identifiers",
+        "simplified": "replacing real names with fake identifiers",
+        "category": "technology",
+        "context": "privacy protection"
+      },
+      "anonymization": {
+        "definition": "removing all identifying information from data",
+        "simplified": "removing all identifying information",
+        "category": "technology",
+        "context": "privacy protection"
+      },
+      "data_subject": {
+        "definition": "individual whose personal data is being processed",
+        "simplified": "person whose information is being used",
+        "category": "technology",
+        "context": "privacy terminology"
+      },
+      "data_controller": {
+        "definition": "entity determining purposes and means of data processing",
+        "simplified": "organization deciding how to use data",
+        "category": "technology",
+        "context": "privacy roles"
+      },
+      "data_processor": {
+        "definition": "entity processing personal data on behalf of controller",
+        "simplified": "organization handling data for someone else",
+        "category": "technology",
+        "context": "privacy roles"
+      },
+      "lawful_basis": {
+        "definition": "legal justification for processing personal data",
+        "simplified": "legal reason for using personal information"
+    },
+    "common_phrases": {
+      "subject_to": {
+        "original": "subject to the terms and conditions",
+        "simplified": "following the rules",
+        "category": "conditions"
+      },
+      "in_accordance_with": {
+        "original": "in accordance with",
+        "simplified": "following",
+        "category": "compliance"
+      },
+      "notwithstanding": {
+        "original": "notwithstanding the foregoing",
+        "simplified": "despite what was said before",
+        "category": "exceptions"
+      },
+      "whereas": {
+        "original": "whereas",
+        "simplified": "since",
+        "category": "background"
+      },
+      "herein": {
+        "original": "herein",
+        "simplified": "in this contract",
+        "category": "references"
+      },
+      "hereof": {
+        "original": "hereof",
+        "simplified": "of this contract",
+        "category": "references"
+      },
+      "thereunder": {
+        "original": "thereunder",
+        "simplified": "under that",
+        "category": "references"
+      },
+      "shall": {
+        "original": "shall",
+        "simplified": "will",
+        "category": "obligations"
+      },
+      "may": {
+        "original": "may",
+        "simplified": "can",
+        "category": "permissions"
+      }
+    },
+    "contract_sections": {
+      "recitals": {
+        "purpose": "background information and reasons for the contract",
+        "simplified": "why this contract exists",
+        "typical_content": "company backgrounds, business needs"
+      },
+      "definitions": {
+        "purpose": "explains what specific terms mean in the contract",
+        "simplified": "what words mean in this contract",
+        "typical_content": "term definitions and interpretations"
+      },
+      "scope_of_work": {
+        "purpose": "what services or products will be provided",
+        "simplified": "what work will be done",
+        "typical_content": "deliverables, services, responsibilities"
+      },
+      "payment_terms": {
+        "purpose": "when and how payment will be made",
+        "simplified": "how much and when to pay",
+        "typical_content": "amounts, due dates, payment methods"
+      },
+      "confidentiality": {
+        "purpose": "keeping information secret",
+        "simplified": "keeping secrets",
+        "typical_content": "what information to protect, how long"
+      },
+      "termination": {
+        "purpose": "how and when the contract can end",
+        "simplified": "how to end the contract",
+        "typical_content": "notice periods, reasons for ending"
+      },
+      "liability": {
+        "purpose": "who is responsible for damages or losses",
+        "simplified": "who pays if something goes wrong",
+        "typical_content": "damage limits, insurance requirements"
+      },
+      "dispute_resolution": {
+        "purpose": "how to handle disagreements",
+        "simplified": "how to solve problems",
+        "typical_content": "mediation, arbitration, court procedures"
+      }
+    },
+    "cleaning_patterns": {
+      "remove_numbering": {
+        "pattern": "^[0-9]+\\.|^\\([0-9]+\\)|^[a-z]\\.|^[A-Z]\\.",
+        "description": "remove section numbering like '1.', '(1)', 'a.', 'A.'"
+      },
+      "remove_headers": {
+        "pattern": "^[A-Z\\s]+$|^SECTION\\s+[0-9]+|^ARTICLE\\s+[0-9]+",
+        "description": "remove all-caps headers and section titles"
+      },
+      "fix_ocr_errors": {
+        "common_fixes": {
+          "rn": "m",
+          "vv": "w",
+          "ii": "ll",
+          "1": "l",
+          "0": "o"
+        },
+        "description": "common OCR character recognition errors"
+      },
+      "split_clauses": {
+        "max_words": 400,
+        "split_on": ["\\. ", "; ", "provided that", "except that", "notwithstanding"],
+        "description": "split long paragraphs into manageable chunks"
+      }
+    },
+    "simplification_rules": {
+      "sentence_structure": {
+        "passive_to_active": "convert passive voice to active voice",
+        "long_sentences": "break sentences longer than 25 words",
+        "complex_clauses": "simplify nested clauses"
+      },
+      "word_choice": {
+        "latin_terms": "replace Latin legal terms with English",
+        "jargon": "replace legal jargon with common words",
+        "archaic": "replace old-fashioned terms with modern equivalents"
+      },
+      "formatting": {
+        "bullet_points": "use bullet points for lists",
+        "short_paragraphs": "keep paragraphs under 100 words",
+        "clear_headings": "use descriptive section headings"
+      }
+    }
+  }
+}
+}

@@ -1,0 +1,318 @@
+/* Import the main styles */
+@import './styles.css';
+
+/* Material-UI Overrides for Premium Design */
+.MuiContainer-root {
+  padding: 0 !important;
+  max-width: none !important;
+}
+
+.MuiPaper-root {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.MuiTypography-h3 {
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif !important;
+  font-size: clamp(2.5rem, 5vw, 4rem) !important;
+  font-weight: 800 !important;
+  line-height: 1.1 !important;
+  color: #111827 !important;
+  letter-spacing: -0.02em !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.05) !important;
+}
+
+.MuiTypography-subtitle1 {
+  font-size: clamp(1.125rem, 2.5vw, 1.5rem) !important;
+  font-weight: 600 !important;
+  color: #ffffff !important;
+  line-height: 1.5 !important;
+}
+
+.MuiTypography-body1 {
+  font-size: clamp(1rem, 2vw, 1.125rem) !important;
+  font-weight: 600 !important;
+  color: #ffffff !important;
+  line-height: 1.6 !important;
+}
+
+.MuiButton-contained {
+  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%) !important;
+  color: white !important;
+  padding: 1rem 2rem !important;
+  border-radius: 1rem !important;
+  font-size: 1.125rem !important;
+  font-weight: 700 !important;
+  text-transform: none !important;
+  box-shadow: 0 10px 15px -3px rgba(59, 130, 246, 0.4) !important;
+  transition: all 0.3s ease !important;
+  border: none !important;
+  position: relative !important;
+  overflow: hidden !important;
+  letter-spacing: 0.025em !important;
+  min-width: 200px !important;
+  height: 56px !important;
+}
+
+.MuiButton-contained::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.6s;
+}
+
+.MuiButton-contained:hover::before {
+  left: 100%;
+}
+
+.MuiButton-contained:hover {
+  background: linear-gradient(135deg, #1e40af 0%, #7c3aed 100%) !important;
+  box-shadow: 0 20px 25px -5px rgba(59, 130, 246, 0.6) !important;
+  transform: translateY(-2px) !important;
+}
+
+.MuiButton-outlined {
+  background: linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%) !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 1rem !important;
+  font-weight: 600 !important;
+  text-transform: none !important;
+  box-shadow: 0 4px 6px -1px rgba(6, 182, 212, 0.4) !important;
+  transition: all 0.3s ease !important;
+  padding: 0.75rem 1.5rem !important;
+  font-size: 0.875rem !important;
+}
+
+.MuiButton-outlined:hover {
+  background: linear-gradient(135deg, #0891b2 0%, #2563eb 100%) !important;
+  box-shadow: 0 10px 15px -3px rgba(6, 182, 212, 0.6) !important;
+  transform: translateY(-1px) !important;
+}
+
+.MuiLinearProgress-root {
+  background: #e5e7eb !important;
+  border-radius: 9999px !important;
+  height: 8px !important;
+  margin: 1rem 0 !important;
+  overflow: hidden !important;
+}
+
+.MuiLinearProgress-bar {
+  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%) !important;
+  border-radius: 9999px !important;
+}
+
+.MuiAlert-root {
+  background: linear-gradient(135deg, #fee2e2 0%, #fef2f2 100%) !important;
+  color: #dc2626 !important;
+  border-radius: 1rem !important;
+  border: 1px solid #fecaca !important;
+  box-shadow: 0 4px 6px -1px rgba(220, 38, 38, 0.1) !important;
+  font-weight: 500 !important;
+}
+
+.MuiAccordion-root {
+  background: #ffffff !important;
+  border: 1px solid #e5e7eb !important;
+  border-radius: 1rem !important;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1) !important;
+  margin-bottom: 1rem !important;
+  transition: all 0.3s ease !important;
+  overflow: hidden !important;
+}
+
+.MuiAccordion-root:hover {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1) !important;
+  transform: translateY(-1px);
+  border-color: #bfdbfe !important;
+}
+
+.MuiAccordionSummary-root {
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%) !important;
+  border-radius: 1rem 1rem 0 0 !important;
+  min-height: 64px !important;
+  padding: 1rem 1.5rem !important;
+  transition: all 0.3s ease !important;
+}
+
+.MuiAccordionSummary-root:hover {
+  background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%) !important;
+}
+
+.MuiAccordionDetails-root {
+  padding: 1.5rem !important;
+  background: #ffffff !important;
+  border-radius: 0 0 1rem 1rem !important;
+}
+
+.MuiChip-root {
+  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%) !important;
+  color: white !important;
+  font-weight: 700 !important;
+  border-radius: 9999px !important;
+  padding: 0.5rem 1rem !important;
+  font-size: 0.75rem !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  box-shadow: 0 1px 3px 0 rgba(59, 130, 246, 0.2) !important;
+}
+
+.MuiDivider-root {
+  background: #e5e7eb !important;
+  margin: 1rem 0 !important;
+  height: 1px !important;
+}
+
+/* Custom classes for enhanced styling */
+.hero-section {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%);
+  border-radius: 2rem;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  border: 1px solid #e5e7eb;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.hero-section::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(45deg, transparent 30%, rgba(59, 130, 246, 0.03) 50%, transparent 70%);
+  animation: shimmer 8s infinite;
+  pointer-events: none;
+}
+
+@keyframes shimmer {
+  0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+  100% { transform: translateX(100%) translateY(100%) rotate(45deg); }
+}
+
+.legal-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 1.5rem;
+  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+  border-radius: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 15px -3px rgba(59, 130, 246, 0.4);
+  position: relative;
+  z-index: 2;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.legal-icon svg {
+  width: 40px;
+  height: 40px;
+  color: white;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+.file-name {
+  margin-top: 1rem;
+  padding: 0.75rem 1rem;
+  background: linear-gradient(135deg, #dbeafe 0%, #eff6ff 100%);
+  border-radius: 0.75rem;
+  color: #1d4ed8;
+  font-weight: 600;
+  display: inline-block;
+  border: 2px solid #bfdbfe;
+  box-shadow: 0 1px 3px 0 rgba(29, 78, 216, 0.2);
+  font-size: 0.875rem;
+  letter-spacing: 0.025em;
+  position: relative;
+  z-index: 2;
+}
+
+.content-section {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background: #f9fafb;
+  border-radius: 0.75rem;
+  border-left: 4px solid #3b82f6;
+  transition: all 0.3s ease;
+}
+
+.content-section:hover {
+  background: #eff6ff;
+  border-left-color: #2563eb;
+}
+
+.content-label {
+  color: #374151 !important;
+  font-weight: 700 !important;
+  font-size: 0.875rem !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  margin-bottom: 0.5rem !important;
+  display: block;
+}
+
+.content-text {
+  color: #111827 !important;
+  line-height: 1.7 !important;
+  margin: 0 !important;
+  font-size: 0.95rem !important;
+}
+
+.glossary-section {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: linear-gradient(135deg, #f0fdf4 0%, #ecfdf5 100%);
+  border-radius: 0.75rem;
+  border-left: 4px solid #10b981;
+}
+
+.glossary-list {
+  margin: 0.5rem 0 0 0;
+  padding-left: 1.5rem;
+}
+
+.glossary-item {
+  margin-bottom: 0.5rem;
+  color: #1f2937;
+  line-height: 1.6;
+}
+
+.glossary-term {
+  font-weight: 700;
+  color: #047857;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 3rem 1.5rem;
+    margin: 1rem 0;
+  }
+  
+  .legal-icon {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .legal-icon svg {
+    width: 30px;
+    height: 30px;
+  }
+}
