@@ -2,6 +2,21 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# My Ollama Python Project
+
+## Prerequisites
+- Install Python 3.10+
+- Install Ollama: https://ollama.ai/download
+- Run `ollama pull llama2` (or whichever model you used)
+
+## Installation
+```bash
+git clone https://github.com/yourusername/your-repo.git
+cd your-repo
+pip install -r requirements.txt
+python app.py
+
+
 ## Available Scripts
 
 In the project directory, you can run:
